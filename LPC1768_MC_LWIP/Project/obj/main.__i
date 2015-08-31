@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\ExtiDrive -I..\lwip-1.3.1\port -I..\lwip-1.3.1\src\include -I..\lwip-1.3.1\src\include\ipv4 -I..\lwip-1.3.1\src\include\lwip -I..\Cmsis -I..\App 
+-I D:\tcp\ARM\RV31\INC 
+-I D:\tcp\ARM\CMSIS\Include 
+-I D:\tcp\ARM\Inc\NXP\LPC17xx 
+-o ".\obj\main.o" --omf_browse ".\obj\main.crf" --depend ".\obj\main.d" "..\App\main.c"

@@ -1,0 +1,16 @@
+.\obj\main.o: ..\App\main.c
+.\obj\main.o: ..\Cmsis\lpc17xx.h
+.\obj\main.o: ..\Cmsis\core_cm3.h
+.\obj\main.o: D:\tcp\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\main.o: ..\Cmsis\core_cmInstr.h
+.\obj\main.o: ..\Cmsis\core_cmFunc.h
+.\obj\main.o: ..\Cmsis\system_LPC17xx.h
+.\obj\main.o: ..\ExtiDrive\emac.h
+.\obj\main.o: ..\ExtiDrive\lpc_types.h
+.\obj\main.o: ..\ExtiDrive\netconf.h
+.\obj\main.o: ..\ExtiDrive\uart.h
+.\obj\main.o: ..\ExtiDrive\LCD1602.h
+.\obj\main.o: ..\App\board.h
+.\obj\main.o: ..\ExtiDrive\MAX485.h
+.\obj\main.o: D:\tcp\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\main.o: D:\tcp\ARM\ARMCC\bin\..\include\stdlib.h

@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\tcp\LPC\LPC1768_MC_LWIP\Project\Project.uvproj
+Project File Date:  08/13/2015
+
+<h2>Output:</h2>
+compiling TCP_server.c...
+..\App\TCP_server.c(485): warning:  #550-D: variable "local_addr" was set but never used
+..\App\TCP_server.c - 0 Error(s), 1 Warning(s).
+Build target 'LPC1768_MC'
+compiling main.c...
+..\App\main.c(107): warning:  #223-D: function "send" declared implicitly
+linking...
+Program Size: Code=28536 RO-data=344 RW-data=1296 ZI-data=54916  
+FromELF: creating hex file...
+".\obj\Project.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\tcp\\LPC\\LPC1768_MC_LWIP\\Project\\obj\\Project.AXF" 
+Set JLink Project File to "D:\tcp\LPC\LPC1768_MC_LWIP\Project\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.54a, compiled Sep 17 2012 15:58:45
+Firmware: J-Link V9 compiled Feb 20 2015 09:20:19
+Hardware: V9.30
+S/N : 269301873 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.275V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 6000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+compiling TCP_server.c...
+..\App\TCP_server.c(485): warning:  #550-D: variable "local_addr" was set but never used
+..\App\TCP_server.c - 0 Error(s), 1 Warning(s).
+Build target 'LPC1768_MC'
+linking...
+Program Size: Code=28536 RO-data=344 RW-data=1296 ZI-data=54916  
+FromELF: creating hex file...
+".\obj\Project.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\tcp\\LPC\\LPC1768_MC_LWIP\\Project\\obj\\Project.AXF" 
+Set JLink Project File to "D:\tcp\LPC\LPC1768_MC_LWIP\Project\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.54a, compiled Sep 17 2012 15:58:45
+Firmware: J-Link V9 compiled Feb 20 2015 09:20:19
+Hardware: V9.30
+S/N : 269301873 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.275V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 6000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

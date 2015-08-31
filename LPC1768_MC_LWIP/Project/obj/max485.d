@@ -1,0 +1,9 @@
+.\obj\max485.o: ..\ExtiDrive\MAX485.c
+.\obj\max485.o: ..\Cmsis\lpc17xx.h
+.\obj\max485.o: ..\Cmsis\core_cm3.h
+.\obj\max485.o: D:\tcp\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\max485.o: ..\Cmsis\core_cmInstr.h
+.\obj\max485.o: ..\Cmsis\core_cmFunc.h
+.\obj\max485.o: ..\Cmsis\system_LPC17xx.h
+.\obj\max485.o: ..\ExtiDrive\uart.h
+.\obj\max485.o: ..\ExtiDrive\MAX485.h
